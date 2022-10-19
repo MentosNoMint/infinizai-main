@@ -1,0 +1,84 @@
+body {
+    background: linear-gradient(to right,#000000E0 58%,#57B8FF 42%); font-family: 'Orbitron', sans-serif;
+}
+
+.header-logo-profile {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 27px;
+    padding-left: 60px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: end;
+    margin-top: -60px;
+    margin-right: 60px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+}
+
+.nav-style {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 60px;
+}
+
+.contact-us {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cart {
+    margin-top: 23px;
+    margin-right: 20px;
+}
+
+a:hover {
+    color:#FAC422;
+    font-size: 18px;
+	transition: all 0.3s ease;
+}
+
+#home{
+	color:#FAC422;
+}
+#home:hover{
+	color: white;
+	font-size: 18px;
+	transition: all 0.3s ease;
+}
+
+.man{
+	position: absolute;
+	top: 296px;
+	right: 260px;
+}
+.text-1 {
+    color: white;
+    position: absolute;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 86px;
+    top: 259px;
+    left: 220px;
+    max-width: 656px;
+}
+.text-2 {
+    color: #999999;
+	position: absolute;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 28px;
+	max-width: 615px;
+	top: 600px;
+	left: 220px;
+
+}
